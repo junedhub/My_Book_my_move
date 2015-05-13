@@ -3,3 +3,5 @@
 
  asset 'angular'
  asset 'bootstrap', '3.3.2'
+ asset 'angular-ui-router', '0.2.13'
+ asset 'angular-material', '0.8.3'

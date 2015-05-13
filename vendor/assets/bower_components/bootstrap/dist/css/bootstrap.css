@@ -242,7 +242,8 @@ th {
   select {
     background: #fff !important;
   }
-  .navbar {
+  .navbar 
+  {
     display: none;
   }
   .btn > .caret,
@@ -1089,7 +1090,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #777;
   text-decoration: none;
 }
 a:hover,
@@ -2966,7 +2967,7 @@ select[multiple].form-group-lg .form-control {
 }
 .btn {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 9px 12px;
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
@@ -3716,6 +3717,7 @@ tbody.collapse.in {
   float: left;
   width: 100%;
   margin-bottom: 0;
+  height: 40px;
 }
 .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
@@ -3780,7 +3782,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   vertical-align: middle;
 }
 .input-group-addon {
-  padding: 6px 12px;
+  padding: 6px 15px;
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
@@ -4379,8 +4381,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  height: 100%;
+  background-color: #fff;
+  
+  
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -4610,7 +4614,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   margin-left: -1px;
   line-height: 1.42857143;
-  color: #337ab7;
+  color: #777;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -6563,4 +6567,20 @@ button.close {
     display: none !important;
   }
 }
+/*[ng-view].ng-enter, [ng-view].ng-leave {
+  position: absolute;;
+  left: 0;
+  right: 0;
+  -webkit-transition:all .5s ease-in-out;
+  tranition:all .5s wace-in.out;
+}
 /*# sourceMappingURL=bootstrap.css.map */
+[ng-view].ngenter {
+  opacity: 0;
+}
+[ng-view-view].ng-enter {
+  opacity: 0;
+}
+[ng-view].ng-enter-active{
+  opacity: 3px;
+}
