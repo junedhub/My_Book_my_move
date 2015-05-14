@@ -13,6 +13,9 @@
  *= require_tree .
  *= require_self
  */
-@import "bootstrap/dist/css/bootstrap";
+@import "bootstrap/dist/css/bootstrap.css";
 @import "bootstrap/dist/css/bootstrap-theme.css";
+@import "angular-ui-select/dist/select.css";
 @import "angular-material/angular-material.css";
+@import "ng-table/dist/ng-table";
+@import "jquery-ui/themes/ui-lightness/jquery-ui.css";

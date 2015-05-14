@@ -4,6 +4,17 @@
     "angular": "latest",
     "bootstrap": "3.3.2",
     "angular-ui-router": "0.2.13",
-    "angular-material": "0.8.3"
+    "angular-material": "0.8.3",
+    "angular-ui-date": "latest",
+    "angular-ui-map": "latest",
+    "angular-ui-bootstrap": "latest",
+    "angular-pickadate": "latest",
+    "angular-messages": "latest",
+    "angular-resource": "latest",
+    "angular-ui-select": "latest",
+    "angular-recaptcha": "latest",
+    "angular-datepicker": "latest",
+    "angular-strap": "latest",
+    "ng-table": "latest"
   }
 }
